@@ -154,19 +154,16 @@ C:\msys64\ucrt64\bin
 # Step 7 — Verify the Installation
 
 Open a terminal and run:
-
 ```bash
 gcc --version
 ```
 
 You should see something similar to:
-
 ```text
-gcc.exe (Rev...)
+gcc (Rev...)
 ```
 
 Next,
-
 ```bash
 pkg-config --modversion sdl2
 ```
@@ -174,7 +171,6 @@ pkg-config --modversion sdl2
 should output the installed SDL2 version.
 
 Finally,
-
 ```bash
 pkg-config --cflags --libs sdl2
 ```
@@ -185,16 +181,14 @@ should return compiler and linker flags instead of an error.
 
 # Step 8 — Clone this Repository
 
-Clone the repository.
-
+Clone the repository. Change YOUR_USERNAME with your GitHub username.
 ```bash
-git clone https://github.com/YOUR_USERNAME/interactive-recursive-maze-solver.git
+git clone https://github.com/YOUR_USERNAME/recursive-maze-search.git
 ```
 
 Move into the project folder.
-
 ```bash
-cd interactive-recursive-maze-solver
+cd recursive-maze-search
 ```
 
 ---
@@ -202,54 +196,21 @@ cd interactive-recursive-maze-solver
 # Step 9 — Build the Project
 
 Compile using GCC.
-
-For a single source file:
-
 ```bash
 gcc mazealg.c -o maze.exe $(pkg-config --cflags --libs sdl2)
 ```
-
-For multiple source files:
-
-```bash
-gcc *.c -o maze.exe $(pkg-config --cflags --libs sdl2)
-```
-
 ---
-
 # Step 10 — Run
-
 Execute the application.
-
 ```bash
 ./maze.exe
 ```
-
 The SDL window should open.
-
----
-
-# 📂 Project Structure
-
-```text
-interactive-recursive-maze-solver
-│
-├── images/
-│
-├── src/
-│
-├── README.md
-│
-├── INSTALL.md
-│
-└── LICENSE
-```
-
 ---
 
 # 🧩 Common Problems
 
-## "stdio.h cannot be found"
+## Issue 1: "stdio.h cannot be found"
 
 Your compiler has not been installed correctly.
 
@@ -263,7 +224,7 @@ If this fails, reinstall the GCC toolchain.
 
 ---
 
-## "SDL2/SDL.h cannot be found"
+## Issue 2: "SDL2/SDL.h cannot be found"
 
 SDL2 has not been installed.
 
@@ -275,7 +236,7 @@ pacman -S mingw-w64-ucrt-x86_64-SDL2
 
 ---
 
-## "gcc is not recognized"
+## Issue 3: "gcc is not recognized"
 
 The compiler is not in your PATH.
 
@@ -291,7 +252,7 @@ Restart VS Code.
 
 ---
 
-## VS Code still shows red squiggles
+## Issue 4: VS Code still shows red squiggles
 
 Open Command Palette.
 
