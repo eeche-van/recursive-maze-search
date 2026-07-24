@@ -46,10 +46,10 @@ gcc mazealg.c -o main.exe
 ```
 For detailed setup instructions, see [INSTALL.md](docs/INSTALL.md).
 ## 🎮 Controls / Indicators
-🖱 Left Click - Creates maze path
-🖱 Right Click - Starts the recursive search
-🟨 Yellow - Walkable path
-🟥 Red - Solution path
+- 🖱 Left Click - Creates maze path
+- 🖱 Right Click - Starts the recursive search
+- 🟨 Yellow - Walkable path
+- 🟥 Red - Solution path
 
 ## 📚 Challenges
 One challenge was preventing the recursive algorithm from revisiting previously explored cells while still preserving the final solution path. This required careful state management using neighbour references and visited flags.
