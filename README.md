@@ -20,9 +20,9 @@ I wanted to explore SDL2 beyond basic graphics by creating an interactive applic
 ## 📸 Screenshots
 
 ## 🛠️ Tech Stack
-Language: C
-Graphics Library: SDL2
-IDE: VS Code
+- Language: C
+- Graphics Library: SDL2
+- IDE: VS Code
 
 ## ⚙️ Quick Start
 ### Prerequisites
