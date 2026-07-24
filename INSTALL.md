@@ -192,9 +192,9 @@ cd recursive-maze-search
 ```
 
 ---
-
+# From this onwards the commands are run through MSYS2 UCRT64 Terminal
 # Step 9 — Build the Project
-
+Make sure you are in the correct directory.
 Compile using GCC.
 ```bash
 gcc mazealg.c -o maze.exe $(pkg-config --cflags --libs sdl2)
