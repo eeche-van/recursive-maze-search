@@ -1,2 +1,3 @@
-# recursive-maze-search
-A small SDL experiment where I explored interactive grid design and recursive search. Users can draw their own maze paths, select a starting point, and watch the program find and highlight a route across the screen.
+# Mini-Project: Interactive Recursive Maze Solver
+An interactive maze visualizer built with SDL2 to explore recursive pathfinding algorithms, grid-based data structures, and event-driven programming in C.
+
