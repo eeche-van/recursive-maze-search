@@ -85,7 +85,7 @@ again.
 
 # Step 4 — Install the Compiler
 
-Install GCC and build tools.
+Install GCC and build tools by simply copy paste this command and then proceed with 'Enter' button to download all the ucrt64 repositories.
 
 ```bash
 pacman -S --needed base-devel mingw-w64-ucrt-x86_64-toolchain
