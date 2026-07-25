@@ -44,7 +44,7 @@ Compile the project using your preferred compiler or build configuration.
 ```bash
 gcc mazealg.c -o maze.exe $(pkg-config --cflags --libs sdl2)
 ```
-For detailed setup instructions, see [INSTALL.md](docs/INSTALL.md).
+For detailed setup instructions, see [INSTALL.md](https://github.com/eeche-van/recursive-maze-search/blob/main/INSTALL.md).
 ## 🎮 Controls / Indicators
 - 🖱 Left Click - Creates maze path
 - 🖱 Right Click - Starts the recursive search
