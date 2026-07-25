@@ -40,10 +40,14 @@ cd recursive-maze-search
 Download and install SDL2 Development Library appropriate for your operating system.
 ### Build the Project
 Compile the project using your preferred compiler or build configuration.
-### Run the executable
 ```bash
 gcc mazealg.c -o maze.exe $(pkg-config --cflags --libs sdl2)
 ```
+### Run the executable
+```bash
+./maze.exe
+```
+
 For detailed setup instructions, see [INSTALL.md](https://github.com/eeche-van/recursive-maze-search/blob/main/INSTALL.md).
 ## 🎮 Controls / Indicators
 - 🖱 Left Click - Creates maze path
