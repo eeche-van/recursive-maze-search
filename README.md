@@ -42,7 +42,7 @@ Download and install SDL2 Development Library appropriate for your operating sys
 Compile the project using your preferred compiler or build configuration.
 ### Run the executable
 ```bash
-gcc mazealg.c -o main.exe
+gcc mazealg.c -o maze.exe $(pkg-config --cflags --libs sdl2)
 ```
 For detailed setup instructions, see [INSTALL.md](docs/INSTALL.md).
 ## 🎮 Controls / Indicators
