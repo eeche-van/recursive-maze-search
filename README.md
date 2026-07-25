@@ -25,6 +25,10 @@ I wanted to explore SDL2 beyond basic graphics by creating an interactive applic
 </p>
 
 <p align="center">
+  <em>Before the recursive search happens...</em>
+</p>
+
+<p align="center">
   <img src="assets/solved-path.png"
        alt="Recursive DFS solution - Maze Solved"
        width="600">
