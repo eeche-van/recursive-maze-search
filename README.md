@@ -21,15 +21,16 @@ I wanted to explore SDL2 beyond basic graphics by creating an interactive applic
 <p align="center">
   <img src="assets/maze-creation.png"
        alt="Maze creation"
-       width="45%">
-  <img src="assets/solved-path.png"
-       alt="Solved maze path"
-       width="45%">
+       width="600">
 </p>
 
 <p align="center">
-  <img src="assets/maze-solved.png"
-       alt="Recursive DFS solution"
+  <em>Before the recursive search happens...</em>
+</p>
+
+<p align="center">
+  <img src="assets/solved-path.png"
+       alt="Recursive DFS solution - Maze Solved"
        width="600">
 </p>
 
