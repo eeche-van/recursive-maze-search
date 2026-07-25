@@ -18,6 +18,24 @@ I wanted to explore SDL2 beyond basic graphics by creating an interactive applic
 - 🎨 Simple colour-coded visualisation for maze construction and search results
 
 ## 📸 Screenshots
+<p align="center">
+  <img src="assets/maze-creation.png"
+       alt="Maze creation"
+       width="45%">
+  <img src="assets/solved-path.png"
+       alt="Solved maze path"
+       width="45%">
+</p>
+
+<p align="center">
+  <img src="assets/maze-solved.png"
+       alt="Recursive DFS solution"
+       width="600">
+</p>
+
+<p align="center">
+  <em>The recursive search highlights the discovered path in red.</em>
+</p>
 
 ## 🛠️ Tech Stack
 - Language: C
@@ -40,11 +58,15 @@ cd recursive-maze-search
 Download and install SDL2 Development Library appropriate for your operating system.
 ### Build the Project
 Compile the project using your preferred compiler or build configuration.
+```bash
+gcc mazealg.c -o maze.exe $(pkg-config --cflags --libs sdl2)
+```
 ### Run the executable
 ```bash
-gcc mazealg.c -o main.exe
+./maze.exe
 ```
-For detailed setup instructions, see [INSTALL.md](docs/INSTALL.md).
+
+For detailed setup instructions, see [INSTALL.md](https://github.com/eeche-van/recursive-maze-search/blob/main/INSTALL.md).
 ## 🎮 Controls / Indicators
 - 🖱 Left Click - Creates maze path
 - 🖱 Right Click - Starts the recursive search
