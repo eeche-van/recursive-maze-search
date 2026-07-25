@@ -27,6 +27,16 @@ I wanted to explore SDL2 beyond basic graphics by creating an interactive applic
        width="45%">
 </p>
 
+<p align="center">
+  <img src="assets/maze-solved.png"
+       alt="Recursive DFS solution"
+       width="600">
+</p>
+
+<p align="center">
+  <em>The recursive search highlights the discovered path in red.</em>
+</p>
+
 ## 🛠️ Tech Stack
 - Language: C
 - Graphics Library: SDL2
