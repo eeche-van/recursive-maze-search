@@ -18,6 +18,14 @@ I wanted to explore SDL2 beyond basic graphics by creating an interactive applic
 - 🎨 Simple colour-coded visualisation for maze construction and search results
 
 ## 📸 Screenshots
+<p align="center">
+  <img src="assets/maze-creation.png"
+       alt="Maze creation"
+       width="45%">
+  <img src="assets/solved-path.png"
+       alt="Solved maze path"
+       width="45%">
+</p>
 
 ## 🛠️ Tech Stack
 - Language: C
